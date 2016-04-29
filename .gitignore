@@ -1,0 +1,18 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Symfony template
+# Cache and logs (Symfony2)
+/cache/*
+/logs/*
+
+# Parameters
+/config/databases.yml
+/config/propel.ini
+/apps/frontend/config/app.yml
+/apps/frontend/config/factories.yml
+
+/test/
+
+/lib/vendor/
+
+
+
