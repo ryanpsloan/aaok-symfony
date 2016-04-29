@@ -1,0 +1,404 @@
+Apr 28 22:11:12 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:11:12 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:11:12 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:11:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 28 22:11:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 22:11:12 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 22:11:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 22:11:12 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 28 22:11:12 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Apr 28 22:11:12 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 22:11:12 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 22:11:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 22:11:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:11:12 symfony [info] {sfWebDebugLogger} Configuration 42.03 ms (9)
+Apr 28 22:11:12 symfony [info] {sfWebDebugLogger} Action "default/index" 0.07 ms (1)
+Apr 28 22:11:12 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 5.14 ms (1)
+Apr 28 22:11:12 symfony [info] {sfWebResponse} Send content (26207 o)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer" (/volunteer.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_new" (/volunteer/new.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_create" (/volunteer.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_edit" (/volunteer/:id/edit.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_update" (/volunteer/:id.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_delete" (/volunteer/:id.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_show" (/volunteer/:id.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_object" (/volunteer/:id/:action.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_collection" (/volunteer/:action/action.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client" (/client.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_new" (/client/new.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_create" (/client.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_edit" (/client/:id/edit.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_update" (/client/:id.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_delete" (/client/:id.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_show" (/client/:id.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_object" (/client/:id/:action.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_collection" (/client/:action/action.:sf_format)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:15:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 28 22:15:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 22:15:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 22:15:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 22:15:14 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 28 22:15:14 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Apr 28 22:15:14 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 22:15:14 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 22:15:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 22:15:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:15:14 symfony [info] {sfWebDebugLogger} Configuration 5.31 ms (10)
+Apr 28 22:15:14 symfony [info] {sfWebDebugLogger} Action "default/index" 0.05 ms (1)
+Apr 28 22:15:14 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 3.97 ms (1)
+Apr 28 22:15:14 symfony [info] {sfWebResponse} Send content (32177 o)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer" (/volunteer.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_new" (/volunteer/new.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_create" (/volunteer.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_edit" (/volunteer/:id/edit.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_update" (/volunteer/:id.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_delete" (/volunteer/:id.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_show" (/volunteer/:id.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_object" (/volunteer/:id/:action.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_collection" (/volunteer/:action/action.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client" (/client.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_new" (/client/new.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_create" (/client.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_edit" (/client/:id/edit.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_update" (/client/:id.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_delete" (/client/:id.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_show" (/client/:id.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_object" (/client/:id/:action.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_collection" (/client/:action/action.:sf_format)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:15:59 symfony [info] {sfPatternRouting} Match route "client" (/client.:sf_format) for /client with parameters array (  'module' => 'client',  'action' => 'index',  'sf_format' => 'html',)
+Apr 28 22:15:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 22:15:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 22:15:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 22:15:59 symfony [info] {clientActions} Call "clientActions->executeIndex()"
+Apr 28 22:15:59 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 22:15:59 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `client`
+Apr 28 22:15:59 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/indexSuccess.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_assets.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_flashes.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list_header.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_filters_field.php"
+Apr 28 22:15:59 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list_th_tabular.php"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:15:59 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client` LIMIT 20
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list_td_batch_actions.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list_td_tabular.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list_td_actions.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list_batch_actions.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list_actions.php"
+Apr 28 22:15:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient/templates/_list_footer.php"
+Apr 28 22:15:59 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/backend/templates/layout.php"
+Apr 28 22:15:59 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/backend/templates/layout.php"
+Apr 28 22:15:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 22:15:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Configuration 45.02 ms (11)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Action "client/index" 9.10 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} View "Success" for "client/index" 23.51 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_assets" 0.20 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_flashes" 0.22 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list_header" 0.18 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_filters" 10.54 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_filters_field" 6.92 ms (14)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list" 5.15 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list_th_tabular" 2.85 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list_td_batch_actions" 0.18 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list_td_tabular" 0.35 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list_td_actions" 0.49 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list_batch_actions" 0.40 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list_actions" 0.25 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebDebugLogger} Partial "client/_list_footer" 0.15 ms (1)
+Apr 28 22:15:59 symfony [info] {sfWebResponse} Send content (66131 o)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map" (/client_volunteer_map.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_new" (/client_volunteer_map/new.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_create" (/client_volunteer_map.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_edit" (/client_volunteer_map/:id/edit.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_update" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_delete" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_show" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_object" (/client_volunteer_map/:id/:action.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_collection" (/client_volunteer_map/:action/action.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer" (/volunteer.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_new" (/volunteer/new.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_create" (/volunteer.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_edit" (/volunteer/:id/edit.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_update" (/volunteer/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_delete" (/volunteer/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_show" (/volunteer/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_object" (/volunteer/:id/:action.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_collection" (/volunteer/:action/action.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client" (/client.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_new" (/client/new.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_create" (/client.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_edit" (/client/:id/edit.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_update" (/client/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_delete" (/client/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_show" (/client/:id.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_object" (/client/:id/:action.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_collection" (/client/:action/action.:sf_format)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:16:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /clientvolunteermap with parameters array (  'module' => 'clientvolunteermap',  'action' => 'index',)
+Apr 28 22:16:53 symfony [info] {sfFrontWebController} Action "clientvolunteermap/index" does not exist
+Apr 28 22:16:53 symfony [err] {sfError404Exception} Action "clientvolunteermap/index" does not exist.
+Apr 28 22:16:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 28 22:16:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map" (/client_volunteer_map.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_new" (/client_volunteer_map/new.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_create" (/client_volunteer_map.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_edit" (/client_volunteer_map/:id/edit.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_update" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_delete" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_show" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_object" (/client_volunteer_map/:id/:action.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_collection" (/client_volunteer_map/:action/action.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer" (/volunteer.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_new" (/volunteer/new.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_create" (/volunteer.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_edit" (/volunteer/:id/edit.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_update" (/volunteer/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_delete" (/volunteer/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_show" (/volunteer/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_object" (/volunteer/:id/:action.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_collection" (/volunteer/:action/action.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client" (/client.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_new" (/client/new.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_create" (/client.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_edit" (/client/:id/edit.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_update" (/client/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_delete" (/client/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_show" (/client/:id.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_object" (/client/:id/:action.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_collection" (/client/:action/action.:sf_format)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:17:14 symfony [info] {sfPatternRouting} Match route "client_volunteer_map" (/client_volunteer_map.:sf_format) for /client_volunteer_map with parameters array (  'module' => 'client_volunteer_map',  'action' => 'index',  'sf_format' => 'html',)
+Apr 28 22:17:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 22:17:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 22:17:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 22:17:14 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeIndex()"
+Apr 28 22:17:14 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 22:17:14 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `client_volunteer_map`
+Apr 28 22:17:14 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/indexSuccess.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_assets.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_flashes.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_header.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_filters.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_filters_field.php"
+Apr 28 22:17:14 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client`
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_filters_field.php"
+Apr 28 22:17:14 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer`
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_th_tabular.php"
+Apr 28 22:17:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:17:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:17:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:17:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:17:14 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:17:14 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:17:14 symfony [debug] {sfPropelLogger} prepare: SELECT client_volunteer_map.ID, client_volunteer_map.CLIENT_ID, client_volunteer_map.VOLUNTEER_ID FROM `client_volunteer_map` LIMIT 20
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_td_batch_actions.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_td_tabular.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_td_actions.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_batch_actions.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_actions.php"
+Apr 28 22:17:14 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_footer.php"
+Apr 28 22:17:14 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/backend/templates/layout.php"
+Apr 28 22:17:14 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/backend/templates/layout.php"
+Apr 28 22:17:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 22:17:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Configuration 42.94 ms (11)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/index" 7.79 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} View "Success" for "client_volunteer_map/index" 14.98 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_assets" 0.23 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_flashes" 0.20 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_header" 0.13 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_filters" 3.82 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_filters_field" 2.07 ms (2)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list" 3.07 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_th_tabular" 0.80 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_td_batch_actions" 0.18 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_td_tabular" 0.28 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_td_actions" 0.59 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_batch_actions" 0.37 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_actions" 0.25 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_footer" 0.14 ms (1)
+Apr 28 22:17:14 symfony [info] {sfWebResponse} Send content (51073 o)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map" (/client_volunteer_map.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_new" (/client_volunteer_map/new.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_create" (/client_volunteer_map.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_edit" (/client_volunteer_map/:id/edit.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_update" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_delete" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_show" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_object" (/client_volunteer_map/:id/:action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_collection" (/client_volunteer_map/:action/action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer" (/volunteer.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_new" (/volunteer/new.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_create" (/volunteer.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_edit" (/volunteer/:id/edit.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_update" (/volunteer/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_delete" (/volunteer/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_show" (/volunteer/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_object" (/volunteer/:id/:action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_collection" (/volunteer/:action/action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client" (/client.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_new" (/client/new.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_create" (/client.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_edit" (/client/:id/edit.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_update" (/client/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_delete" (/client/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_show" (/client/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_object" (/client/:id/:action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_collection" (/client/:action/action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Match route "client_volunteer_map_collection" (/client_volunteer_map/:action/action.:sf_format) for /client_volunteer_map/filter/action with parameters array (  'module' => 'client_volunteer_map',  'action' => 'filter',  'sf_format' => 'html',)
+Apr 28 22:17:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 22:17:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 22:17:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 22:17:23 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeFilter()"
+Apr 28 22:17:23 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/backend_dev.php/client_volunteer_map"
+Apr 28 22:17:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 22:17:23 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/backend_dev.php/client_volunteer_map"
+Apr 28 22:17:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Configuration 0.47 ms (9)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/filter" 5.02 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebResponse} Send content (164 o)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map" (/client_volunteer_map.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_new" (/client_volunteer_map/new.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_create" (/client_volunteer_map.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_edit" (/client_volunteer_map/:id/edit.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_update" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_delete" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_show" (/client_volunteer_map/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_object" (/client_volunteer_map/:id/:action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_volunteer_map_collection" (/client_volunteer_map/:action/action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer" (/volunteer.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_new" (/volunteer/new.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_create" (/volunteer.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_edit" (/volunteer/:id/edit.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_update" (/volunteer/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_delete" (/volunteer/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_show" (/volunteer/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_object" (/volunteer/:id/:action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "volunteer_collection" (/volunteer/:action/action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client" (/client.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_new" (/client/new.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_create" (/client.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_edit" (/client/:id/edit.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_update" (/client/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_delete" (/client/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_show" (/client/:id.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_object" (/client/:id/:action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "client_collection" (/client/:action/action.:sf_format)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:17:23 symfony [info] {sfPatternRouting} Match route "client_volunteer_map" (/client_volunteer_map.:sf_format) for /client_volunteer_map with parameters array (  'module' => 'client_volunteer_map',  'action' => 'index',  'sf_format' => 'html',)
+Apr 28 22:17:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 22:17:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 22:17:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 22:17:23 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeIndex()"
+Apr 28 22:17:23 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 22:17:23 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `client_volunteer_map`
+Apr 28 22:17:23 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/indexSuccess.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_assets.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_flashes.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_header.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_filters.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_filters_field.php"
+Apr 28 22:17:23 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client`
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_filters_field.php"
+Apr 28 22:17:23 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer`
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_th_tabular.php"
+Apr 28 22:17:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:17:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:17:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:17:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:17:23 symfony [info] {main} Set slot "sf_admin.current_header"
+Apr 28 22:17:23 symfony [info] {main} Get slot "sf_admin.current_header"
+Apr 28 22:17:23 symfony [debug] {sfPropelLogger} prepare: SELECT client_volunteer_map.ID, client_volunteer_map.CLIENT_ID, client_volunteer_map.VOLUNTEER_ID FROM `client_volunteer_map` LIMIT 20
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_td_batch_actions.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_td_tabular.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_td_actions.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_batch_actions.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_actions.php"
+Apr 28 22:17:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/cache/backend/dev/modules/autoClient_volunteer_map/templates/_list_footer.php"
+Apr 28 22:17:23 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/backend/templates/layout.php"
+Apr 28 22:17:23 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/backend/templates/layout.php"
+Apr 28 22:17:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 22:17:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Configuration 0.55 ms (10)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/index" 11.43 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} View "Success" for "client_volunteer_map/index" 20.24 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_assets" 0.24 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_flashes" 0.24 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_header" 0.15 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_filters" 9.98 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_filters_field" 7.85 ms (2)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list" 3.29 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_th_tabular" 1.00 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_td_batch_actions" 0.21 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_td_tabular" 0.28 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_td_actions" 0.55 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_batch_actions" 0.29 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_actions" 0.23 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_list_footer" 0.16 ms (1)
+Apr 28 22:17:23 symfony [info] {sfWebResponse} Send content (51472 o)

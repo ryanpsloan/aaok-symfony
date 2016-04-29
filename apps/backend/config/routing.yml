@@ -1,0 +1,83 @@
+zipcode:
+  class: sfPropelRouteCollection
+  options:
+    model:                Zipcode
+    module:               zipcode
+    prefix_path:          zipcode
+    column:               id
+    with_wildcard_routes: true
+
+user:
+  class: sfPropelRouteCollection
+  options:
+    model:                User
+    module:               user
+    prefix_path:          user
+    column:               id
+    with_wildcard_routes: true
+
+state:
+  class: sfPropelRouteCollection
+  options:
+    model:                State
+    module:               state
+    prefix_path:          state
+    column:               id
+    with_wildcard_routes: true
+
+service:
+  class: sfPropelRouteCollection
+  options:
+    model:                Service
+    module:               service
+    prefix_path:          service
+    column:               id
+    with_wildcard_routes: true
+
+city:
+  class: sfPropelRouteCollection
+  options:
+    model:                City
+    module:               city
+    prefix_path:          city
+    column:               id
+    with_wildcard_routes: true
+
+client_volunteer_map:
+  class: sfPropelRouteCollection
+  options:
+    model:                ClientVolunteerMap
+    module:               client_volunteer_map
+    prefix_path:          client_volunteer_map
+    column:               id
+    with_wildcard_routes: true
+
+volunteer:
+  class: sfPropelRouteCollection
+  options:
+    model:                Volunteer
+    module:               volunteer
+    prefix_path:          volunteer
+    column:               id
+    with_wildcard_routes: true
+
+client:
+  class: sfPropelRouteCollection
+  options:
+    model:                Client
+    module:               client
+    prefix_path:          client
+    column:               id
+    with_wildcard_routes: true
+
+# default rules
+homepage:
+  url:   /
+  param: { module: default, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

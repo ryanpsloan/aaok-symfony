@@ -1,0 +1,1069 @@
+Apr 28 14:42:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 14:42:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 14:42:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 14:42:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 28 14:42:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 14:42:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 14:42:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 14:42:38 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 28 14:42:38 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Apr 28 14:42:38 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 14:42:38 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 14:42:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 14:42:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 14:42:38 symfony [info] {sfWebDebugLogger} Configuration 32.12 ms (9)
+Apr 28 14:42:38 symfony [info] {sfWebDebugLogger} Action "default/index" 0.06 ms (1)
+Apr 28 14:42:38 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 5.49 ms (1)
+Apr 28 14:42:38 symfony [info] {sfWebResponse} Send content (25945 o)
+Apr 28 14:43:49 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 14:43:49 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 14:43:49 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 14:43:49 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 28 14:43:49 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 14:43:49 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 14:43:49 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 14:43:49 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 28 14:43:49 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Apr 28 14:43:49 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 14:43:49 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 14:43:49 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 14:43:49 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 14:43:49 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (9)
+Apr 28 14:43:49 symfony [info] {sfWebDebugLogger} Action "default/index" 0.06 ms (1)
+Apr 28 14:43:49 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 4.47 ms (1)
+Apr 28 14:43:49 symfony [info] {sfWebResponse} Send content (26224 o)
+Apr 28 14:46:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 14:46:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 14:46:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 14:46:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 28 14:46:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 14:46:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 14:46:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 14:46:48 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 28 14:46:48 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Apr 28 14:46:48 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 14:46:48 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Apr 28 14:46:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 14:46:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 14:46:48 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (9)
+Apr 28 14:46:48 symfony [info] {sfWebDebugLogger} Action "default/index" 0.08 ms (1)
+Apr 28 14:46:48 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 4.43 ms (1)
+Apr 28 14:46:48 symfony [info] {sfWebResponse} Send content (26224 o)
+Apr 28 21:19:47 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:19:47 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:19:47 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:19:47 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/new with parameters array (  'module' => 'client',  'action' => 'new',)
+Apr 28 21:19:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:19:47 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:19:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:19:47 symfony [info] {clientActions} Call "clientActions->executeNew()"
+Apr 28 21:19:47 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/newSuccess.php"
+Apr 28 21:19:47 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/_form.php"
+Apr 28 21:19:47 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:19:47 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:19:47 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:19:47 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:19:47 symfony [err] {RuntimeException} Class "City" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Apr 28 21:19:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 28 21:19:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:21:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:21:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:21:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:21:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/new with parameters array (  'module' => 'client',  'action' => 'new',)
+Apr 28 21:21:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:21:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:21:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:21:02 symfony [info] {clientActions} Call "clientActions->executeNew()"
+Apr 28 21:21:02 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/newSuccess.php"
+Apr 28 21:21:02 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/_form.php"
+Apr 28 21:21:02 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:21:02 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:21:02 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:21:02 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:21:02 symfony [err] {RuntimeException} Class "City" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Apr 28 21:21:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 28 21:21:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:36:54 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:36:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:36:54 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:36:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/new with parameters array (  'module' => 'client',  'action' => 'new',)
+Apr 28 21:36:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:36:54 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:36:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:36:54 symfony [info] {clientActions} Call "clientActions->executeNew()"
+Apr 28 21:36:54 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/newSuccess.php"
+Apr 28 21:36:54 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/_form.php"
+Apr 28 21:36:54 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:36:54 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:36:54 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:36:54 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:36:54 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:36:54 symfony [err] {RuntimeException} Class "State" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Apr 28 21:36:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 28 21:36:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:38:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:38:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:38:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:38:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/new with parameters array (  'module' => 'client',  'action' => 'new',)
+Apr 28 21:38:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:38:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:38:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:38:15 symfony [info] {clientActions} Call "clientActions->executeNew()"
+Apr 28 21:38:15 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/newSuccess.php"
+Apr 28 21:38:15 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/_form.php"
+Apr 28 21:38:15 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:38:15 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:38:15 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:38:15 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:38:15 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:38:15 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:38:15 symfony [err] {RuntimeException} Class "Zipcode" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Apr 28 21:38:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 28 21:38:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:39:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:39:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:39:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:39:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/new with parameters array (  'module' => 'client',  'action' => 'new',)
+Apr 28 21:39:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:39:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:39:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:39:00 symfony [info] {clientActions} Call "clientActions->executeNew()"
+Apr 28 21:39:00 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/newSuccess.php"
+Apr 28 21:39:00 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/_form.php"
+Apr 28 21:39:00 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:39:00 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:39:00 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:39:00 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:39:00 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:39:00 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:39:00 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:39:00 symfony [err] {RuntimeException} Class "Service" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Apr 28 21:39:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 28 21:39:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:39:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:39:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:39:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:39:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/new with parameters array (  'module' => 'client',  'action' => 'new',)
+Apr 28 21:39:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:39:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:39:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:39:59 symfony [info] {clientActions} Call "clientActions->executeNew()"
+Apr 28 21:39:59 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/newSuccess.php"
+Apr 28 21:39:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/_form.php"
+Apr 28 21:39:59 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:39:59 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:39:59 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:39:59 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:39:59 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:39:59 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:39:59 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:39:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:39:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:39:59 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (9)
+Apr 28 21:39:59 symfony [info] {sfWebDebugLogger} Action "client/new" 10.99 ms (1)
+Apr 28 21:39:59 symfony [info] {sfWebDebugLogger} View "Success" for "client/new" 20.71 ms (1)
+Apr 28 21:39:59 symfony [info] {sfWebDebugLogger} Partial "client/_form" 16.42 ms (1)
+Apr 28 21:39:59 symfony [info] {sfWebResponse} Send content (28841 o)
+Apr 28 21:43:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:43:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:43:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:43:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /city/new with parameters array (  'module' => 'city',  'action' => 'new',)
+Apr 28 21:43:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:43:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:43:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:43:53 symfony [info] {cityActions} Call "cityActions->executeNew()"
+Apr 28 21:43:53 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/newSuccess.php"
+Apr 28 21:43:53 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/_form.php"
+Apr 28 21:43:53 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:43:53 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:43:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:43:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:43:53 symfony [info] {sfWebDebugLogger} Configuration 7.63 ms (10)
+Apr 28 21:43:53 symfony [info] {sfWebDebugLogger} Action "city/new" 7.27 ms (1)
+Apr 28 21:43:53 symfony [info] {sfWebDebugLogger} View "Success" for "city/new" 7.18 ms (1)
+Apr 28 21:43:53 symfony [info] {sfWebDebugLogger} Partial "city/_form" 1.62 ms (1)
+Apr 28 21:43:53 symfony [info] {sfWebResponse} Send content (25814 o)
+Apr 28 21:44:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /city/create with parameters array (  'module' => 'city',  'action' => 'create',)
+Apr 28 21:44:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:01 symfony [info] {cityActions} Call "cityActions->executeCreate()"
+Apr 28 21:44:01 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:01 symfony [debug] {sfPropelLogger} prepare: INSERT INTO city (`ID`,`CITY_NAME`) VALUES (:p1,:p2)
+Apr 28 21:44:01 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Apr 28 21:44:01 symfony [debug] {sfPropelLogger} Binding 'Albuquerque' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 28 21:44:01 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/city/edit/id/1"
+Apr 28 21:44:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 21:44:01 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/city/edit/id/1"
+Apr 28 21:44:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:01 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (8)
+Apr 28 21:44:01 symfony [info] {sfWebDebugLogger} Action "city/create" 14.41 ms (1)
+Apr 28 21:44:01 symfony [info] {sfWebResponse} Send content (159 o)
+Apr 28 21:44:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /city/edit/id/1 with parameters array (  'id' => '1',  'module' => 'city',  'action' => 'edit',)
+Apr 28 21:44:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:01 symfony [info] {cityActions} Call "cityActions->executeEdit()"
+Apr 28 21:44:01 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:01 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city` WHERE city.ID=:p1
+Apr 28 21:44:01 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:44:01 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/editSuccess.php"
+Apr 28 21:44:01 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/_form.php"
+Apr 28 21:44:01 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:01 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:01 symfony [info] {sfWebDebugLogger} Configuration 0.47 ms (9)
+Apr 28 21:44:01 symfony [info] {sfWebDebugLogger} Action "city/edit" 11.25 ms (1)
+Apr 28 21:44:01 symfony [info] {sfWebDebugLogger} View "Success" for "city/edit" 6.53 ms (1)
+Apr 28 21:44:01 symfony [info] {sfWebDebugLogger} Partial "city/_form" 1.95 ms (1)
+Apr 28 21:44:01 symfony [info] {sfWebResponse} Send content (27372 o)
+Apr 28 21:44:11 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:11 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:11 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:11 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /city with parameters array (  'module' => 'city',  'action' => 'index',)
+Apr 28 21:44:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:11 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:11 symfony [info] {cityActions} Call "cityActions->executeIndex()"
+Apr 28 21:44:11 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:11 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:44:11 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/indexSuccess.php"
+Apr 28 21:44:11 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:11 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:11 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (9)
+Apr 28 21:44:11 symfony [info] {sfWebDebugLogger} Action "city/index" 7.54 ms (1)
+Apr 28 21:44:11 symfony [info] {sfWebDebugLogger} View "Success" for "city/index" 4.86 ms (1)
+Apr 28 21:44:11 symfony [info] {sfWebResponse} Send content (25509 o)
+Apr 28 21:44:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:16 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:16 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /city/new with parameters array (  'module' => 'city',  'action' => 'new',)
+Apr 28 21:44:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:16 symfony [info] {cityActions} Call "cityActions->executeNew()"
+Apr 28 21:44:16 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/newSuccess.php"
+Apr 28 21:44:16 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/_form.php"
+Apr 28 21:44:16 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:16 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:16 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (9)
+Apr 28 21:44:16 symfony [info] {sfWebDebugLogger} Action "city/new" 7.01 ms (1)
+Apr 28 21:44:16 symfony [info] {sfWebDebugLogger} View "Success" for "city/new" 5.91 ms (1)
+Apr 28 21:44:16 symfony [info] {sfWebDebugLogger} Partial "city/_form" 1.69 ms (1)
+Apr 28 21:44:16 symfony [info] {sfWebResponse} Send content (25919 o)
+Apr 28 21:44:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /city/create with parameters array (  'module' => 'city',  'action' => 'create',)
+Apr 28 21:44:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:22 symfony [info] {cityActions} Call "cityActions->executeCreate()"
+Apr 28 21:44:22 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:22 symfony [debug] {sfPropelLogger} prepare: INSERT INTO city (`ID`,`CITY_NAME`) VALUES (:p1,:p2)
+Apr 28 21:44:22 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Apr 28 21:44:22 symfony [debug] {sfPropelLogger} Binding 'Rio Rancho' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 28 21:44:22 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/city/edit/id/2"
+Apr 28 21:44:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 21:44:22 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/city/edit/id/2"
+Apr 28 21:44:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:22 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (8)
+Apr 28 21:44:22 symfony [info] {sfWebDebugLogger} Action "city/create" 14.69 ms (1)
+Apr 28 21:44:22 symfony [info] {sfWebResponse} Send content (159 o)
+Apr 28 21:44:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /city/edit/id/2 with parameters array (  'id' => '2',  'module' => 'city',  'action' => 'edit',)
+Apr 28 21:44:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:22 symfony [info] {cityActions} Call "cityActions->executeEdit()"
+Apr 28 21:44:22 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:22 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city` WHERE city.ID=:p1
+Apr 28 21:44:22 symfony [debug] {sfPropelLogger} Binding '2' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:44:22 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/editSuccess.php"
+Apr 28 21:44:22 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/_form.php"
+Apr 28 21:44:22 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:22 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:22 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (9)
+Apr 28 21:44:22 symfony [info] {sfWebDebugLogger} Action "city/edit" 11.34 ms (1)
+Apr 28 21:44:22 symfony [info] {sfWebDebugLogger} View "Success" for "city/edit" 6.28 ms (1)
+Apr 28 21:44:22 symfony [info] {sfWebDebugLogger} Partial "city/_form" 1.93 ms (1)
+Apr 28 21:44:22 symfony [info] {sfWebResponse} Send content (27371 o)
+Apr 28 21:44:25 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:25 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:25 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:25 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /city with parameters array (  'module' => 'city',  'action' => 'index',)
+Apr 28 21:44:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:25 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:25 symfony [info] {cityActions} Call "cityActions->executeIndex()"
+Apr 28 21:44:25 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:25 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:44:25 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/city/templates/indexSuccess.php"
+Apr 28 21:44:25 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:25 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:25 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (9)
+Apr 28 21:44:25 symfony [info] {sfWebDebugLogger} Action "city/index" 7.25 ms (1)
+Apr 28 21:44:25 symfony [info] {sfWebDebugLogger} View "Success" for "city/index" 4.32 ms (1)
+Apr 28 21:44:25 symfony [info] {sfWebResponse} Send content (25622 o)
+Apr 28 21:44:34 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:34 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:34 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:34 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /state with parameters array (  'module' => 'state',  'action' => 'index',)
+Apr 28 21:44:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:34 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:34 symfony [info] {stateActions} Call "stateActions->executeIndex()"
+Apr 28 21:44:34 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:34 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:44:34 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/state/templates/indexSuccess.php"
+Apr 28 21:44:34 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:34 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:34 symfony [info] {sfWebDebugLogger} Configuration 7.71 ms (10)
+Apr 28 21:44:34 symfony [info] {sfWebDebugLogger} Action "state/index" 5.09 ms (1)
+Apr 28 21:44:34 symfony [info] {sfWebDebugLogger} View "Success" for "state/index" 4.83 ms (1)
+Apr 28 21:44:34 symfony [info] {sfWebResponse} Send content (25364 o)
+Apr 28 21:44:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /state/new with parameters array (  'module' => 'state',  'action' => 'new',)
+Apr 28 21:44:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:36 symfony [info] {stateActions} Call "stateActions->executeNew()"
+Apr 28 21:44:36 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/state/templates/newSuccess.php"
+Apr 28 21:44:36 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/state/templates/_form.php"
+Apr 28 21:44:36 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:36 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:36 symfony [info] {sfWebDebugLogger} Configuration 0.43 ms (9)
+Apr 28 21:44:36 symfony [info] {sfWebDebugLogger} Action "state/new" 8.44 ms (1)
+Apr 28 21:44:36 symfony [info] {sfWebDebugLogger} View "Success" for "state/new" 5.80 ms (1)
+Apr 28 21:44:36 symfony [info] {sfWebDebugLogger} Partial "state/_form" 1.65 ms (1)
+Apr 28 21:44:36 symfony [info] {sfWebResponse} Send content (26136 o)
+Apr 28 21:44:44 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:44 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:44 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /state/create with parameters array (  'module' => 'state',  'action' => 'create',)
+Apr 28 21:44:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:44 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:44 symfony [info] {stateActions} Call "stateActions->executeCreate()"
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state` WHERE state.STATE_NAME=:p1 LIMIT 1
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} Binding 'New Mexico' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state` WHERE state.STATE_ABBREVIATION=:p1 LIMIT 1
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} Binding 'NM' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} prepare: INSERT INTO state (`ID`,`STATE_NAME`,`STATE_ABBREVIATION`) VALUES (:p1,:p2,:p3)
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} Binding 'New Mexico' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 28 21:44:44 symfony [debug] {sfPropelLogger} Binding 'NM' at position :p3 w/ PDO type PDO::PARAM_STR
+Apr 28 21:44:44 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/state/edit/id/1"
+Apr 28 21:44:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 21:44:44 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/state/edit/id/1"
+Apr 28 21:44:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:44 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (8)
+Apr 28 21:44:44 symfony [info] {sfWebDebugLogger} Action "state/create" 15.99 ms (1)
+Apr 28 21:44:44 symfony [info] {sfWebResponse} Send content (160 o)
+Apr 28 21:44:45 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:45 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:45 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /state/edit/id/1 with parameters array (  'id' => '1',  'module' => 'state',  'action' => 'edit',)
+Apr 28 21:44:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:45 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:45 symfony [info] {stateActions} Call "stateActions->executeEdit()"
+Apr 28 21:44:45 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:45 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state` WHERE state.ID=:p1
+Apr 28 21:44:45 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:44:45 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/state/templates/editSuccess.php"
+Apr 28 21:44:45 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/state/templates/_form.php"
+Apr 28 21:44:45 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:45 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:45 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (9)
+Apr 28 21:44:45 symfony [info] {sfWebDebugLogger} Action "state/edit" 12.21 ms (1)
+Apr 28 21:44:45 symfony [info] {sfWebDebugLogger} View "Success" for "state/edit" 6.33 ms (1)
+Apr 28 21:44:45 symfony [info] {sfWebDebugLogger} Partial "state/_form" 2.02 ms (1)
+Apr 28 21:44:45 symfony [info] {sfWebResponse} Send content (27631 o)
+Apr 28 21:44:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /zipcode with parameters array (  'module' => 'zipcode',  'action' => 'index',)
+Apr 28 21:44:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:58 symfony [info] {zipcodeActions} Call "zipcodeActions->executeIndex()"
+Apr 28 21:44:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:44:58 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:44:58 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/zipcode/templates/indexSuccess.php"
+Apr 28 21:44:58 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:58 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:58 symfony [info] {sfWebDebugLogger} Configuration 8.05 ms (10)
+Apr 28 21:44:58 symfony [info] {sfWebDebugLogger} Action "zipcode/index" 5.45 ms (1)
+Apr 28 21:44:58 symfony [info] {sfWebDebugLogger} View "Success" for "zipcode/index" 5.47 ms (1)
+Apr 28 21:44:58 symfony [info] {sfWebResponse} Send content (25344 o)
+Apr 28 21:44:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:44:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:44:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:44:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /zipcode/new with parameters array (  'module' => 'zipcode',  'action' => 'new',)
+Apr 28 21:44:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:44:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:44:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:44:59 symfony [info] {zipcodeActions} Call "zipcodeActions->executeNew()"
+Apr 28 21:44:59 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/zipcode/templates/newSuccess.php"
+Apr 28 21:44:59 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/zipcode/templates/_form.php"
+Apr 28 21:44:59 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:59 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:44:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:44:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:44:59 symfony [info] {sfWebDebugLogger} Configuration 0.47 ms (9)
+Apr 28 21:44:59 symfony [info] {sfWebDebugLogger} Action "zipcode/new" 7.77 ms (1)
+Apr 28 21:44:59 symfony [info] {sfWebDebugLogger} View "Success" for "zipcode/new" 5.78 ms (1)
+Apr 28 21:44:59 symfony [info] {sfWebDebugLogger} Partial "zipcode/_form" 1.55 ms (1)
+Apr 28 21:44:59 symfony [info] {sfWebResponse} Send content (26005 o)
+Apr 28 21:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /zipcode/create with parameters array (  'module' => 'zipcode',  'action' => 'create',)
+Apr 28 21:45:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:04 symfony [info] {zipcodeActions} Call "zipcodeActions->executeCreate()"
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode` WHERE zipcode.ZIP_CODE=:p1 LIMIT 1
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} Binding '87111' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} prepare: INSERT INTO zipcode (`ID`,`ZIP_CODE`) VALUES (:p1,:p2)
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} Binding '87111' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 28 21:45:04 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/zipcode/edit/id/1"
+Apr 28 21:45:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 21:45:04 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/zipcode/edit/id/1"
+Apr 28 21:45:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:04 symfony [info] {sfWebDebugLogger} Configuration 0.42 ms (8)
+Apr 28 21:45:04 symfony [info] {sfWebDebugLogger} Action "zipcode/create" 15.29 ms (1)
+Apr 28 21:45:04 symfony [info] {sfWebResponse} Send content (162 o)
+Apr 28 21:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /zipcode/edit/id/1 with parameters array (  'id' => '1',  'module' => 'zipcode',  'action' => 'edit',)
+Apr 28 21:45:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:04 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:04 symfony [info] {zipcodeActions} Call "zipcodeActions->executeEdit()"
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode` WHERE zipcode.ID=:p1
+Apr 28 21:45:04 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:45:04 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/zipcode/templates/editSuccess.php"
+Apr 28 21:45:04 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/zipcode/templates/_form.php"
+Apr 28 21:45:04 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:04 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:45:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:04 symfony [info] {sfWebDebugLogger} Configuration 0.47 ms (9)
+Apr 28 21:45:04 symfony [info] {sfWebDebugLogger} Action "zipcode/edit" 12.07 ms (1)
+Apr 28 21:45:04 symfony [info] {sfWebDebugLogger} View "Success" for "zipcode/edit" 6.36 ms (1)
+Apr 28 21:45:04 symfony [info] {sfWebDebugLogger} Partial "zipcode/_form" 1.91 ms (1)
+Apr 28 21:45:04 symfony [info] {sfWebResponse} Send content (27466 o)
+Apr 28 21:45:10 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:10 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:10 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:10 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /zipcode with parameters array (  'module' => 'zipcode',  'action' => 'index',)
+Apr 28 21:45:10 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:10 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:10 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:10 symfony [info] {zipcodeActions} Call "zipcodeActions->executeIndex()"
+Apr 28 21:45:10 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:45:10 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:45:10 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/zipcode/templates/indexSuccess.php"
+Apr 28 21:45:10 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:10 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:45:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:10 symfony [info] {sfWebDebugLogger} Configuration 0.51 ms (9)
+Apr 28 21:45:10 symfony [info] {sfWebDebugLogger} Action "zipcode/index" 7.19 ms (1)
+Apr 28 21:45:10 symfony [info] {sfWebDebugLogger} View "Success" for "zipcode/index" 4.45 ms (1)
+Apr 28 21:45:10 symfony [info] {sfWebResponse} Send content (25573 o)
+Apr 28 21:45:22 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:22 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:22 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:22 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /service with parameters array (  'module' => 'service',  'action' => 'index',)
+Apr 28 21:45:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:22 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:22 symfony [info] {serviceActions} Call "serviceActions->executeIndex()"
+Apr 28 21:45:22 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:45:22 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:45:22 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/service/templates/indexSuccess.php"
+Apr 28 21:45:22 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:22 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:45:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:22 symfony [info] {sfWebDebugLogger} Configuration 7.84 ms (10)
+Apr 28 21:45:22 symfony [info] {sfWebDebugLogger} Action "service/index" 5.20 ms (1)
+Apr 28 21:45:22 symfony [info] {sfWebDebugLogger} View "Success" for "service/index" 5.42 ms (1)
+Apr 28 21:45:22 symfony [info] {sfWebResponse} Send content (25352 o)
+Apr 28 21:45:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /service/new with parameters array (  'module' => 'service',  'action' => 'new',)
+Apr 28 21:45:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:23 symfony [info] {serviceActions} Call "serviceActions->executeNew()"
+Apr 28 21:45:23 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/service/templates/newSuccess.php"
+Apr 28 21:45:23 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/service/templates/_form.php"
+Apr 28 21:45:23 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:23 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:45:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:23 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (9)
+Apr 28 21:45:23 symfony [info] {sfWebDebugLogger} Action "service/new" 7.19 ms (1)
+Apr 28 21:45:23 symfony [info] {sfWebDebugLogger} View "Success" for "service/new" 5.54 ms (1)
+Apr 28 21:45:23 symfony [info] {sfWebDebugLogger} Partial "service/_form" 1.51 ms (1)
+Apr 28 21:45:23 symfony [info] {sfWebResponse} Send content (26021 o)
+Apr 28 21:45:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /service/create with parameters array (  'module' => 'service',  'action' => 'create',)
+Apr 28 21:45:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:38 symfony [info] {serviceActions} Call "serviceActions->executeCreate()"
+Apr 28 21:45:38 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:45:38 symfony [debug] {sfPropelLogger} prepare: INSERT INTO service (`ID`,`SERVICE_NAME`) VALUES (:p1,:p2)
+Apr 28 21:45:38 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Apr 28 21:45:38 symfony [debug] {sfPropelLogger} Binding 'Thanksgiving Dinner' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 28 21:45:38 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/service/edit/id/1"
+Apr 28 21:45:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 21:45:38 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/service/edit/id/1"
+Apr 28 21:45:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:38 symfony [info] {sfWebDebugLogger} Configuration 0.44 ms (8)
+Apr 28 21:45:38 symfony [info] {sfWebDebugLogger} Action "service/create" 14.50 ms (1)
+Apr 28 21:45:38 symfony [info] {sfWebResponse} Send content (162 o)
+Apr 28 21:45:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:38 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /service/edit/id/1 with parameters array (  'id' => '1',  'module' => 'service',  'action' => 'edit',)
+Apr 28 21:45:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:38 symfony [info] {serviceActions} Call "serviceActions->executeEdit()"
+Apr 28 21:45:38 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:45:38 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service` WHERE service.ID=:p1
+Apr 28 21:45:38 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:45:38 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/service/templates/editSuccess.php"
+Apr 28 21:45:38 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/service/templates/_form.php"
+Apr 28 21:45:38 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:38 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:45:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:38 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (9)
+Apr 28 21:45:38 symfony [info] {sfWebDebugLogger} Action "service/edit" 11.09 ms (1)
+Apr 28 21:45:38 symfony [info] {sfWebDebugLogger} View "Success" for "service/edit" 6.07 ms (1)
+Apr 28 21:45:38 symfony [info] {sfWebDebugLogger} Partial "service/_form" 1.85 ms (1)
+Apr 28 21:45:38 symfony [info] {sfWebResponse} Send content (27500 o)
+Apr 28 21:45:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:40 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /service with parameters array (  'module' => 'service',  'action' => 'index',)
+Apr 28 21:45:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:40 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:40 symfony [info] {serviceActions} Call "serviceActions->executeIndex()"
+Apr 28 21:45:40 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:45:40 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:45:40 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/service/templates/indexSuccess.php"
+Apr 28 21:45:40 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:40 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:45:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:40 symfony [info] {sfWebDebugLogger} Configuration 0.47 ms (9)
+Apr 28 21:45:40 symfony [info] {sfWebDebugLogger} Action "service/index" 6.81 ms (1)
+Apr 28 21:45:40 symfony [info] {sfWebDebugLogger} View "Success" for "service/index" 4.07 ms (1)
+Apr 28 21:45:40 symfony [info] {sfWebResponse} Send content (25595 o)
+Apr 28 21:45:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:45:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:45:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:45:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /client with parameters array (  'module' => 'client',  'action' => 'index',)
+Apr 28 21:45:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:45:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:45:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:45:58 symfony [info] {clientActions} Call "clientActions->executeIndex()"
+Apr 28 21:45:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:45:58 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client`
+Apr 28 21:45:58 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/indexSuccess.php"
+Apr 28 21:45:58 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:58 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:45:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:45:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:45:58 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (9)
+Apr 28 21:45:58 symfony [info] {sfWebDebugLogger} Action "client/index" 7.50 ms (1)
+Apr 28 21:45:58 symfony [info] {sfWebDebugLogger} View "Success" for "client/index" 4.54 ms (1)
+Apr 28 21:45:58 symfony [info] {sfWebResponse} Send content (25891 o)
+Apr 28 21:46:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:46:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:46:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:46:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/new with parameters array (  'module' => 'client',  'action' => 'new',)
+Apr 28 21:46:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:46:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:46:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:46:01 symfony [info] {clientActions} Call "clientActions->executeNew()"
+Apr 28 21:46:01 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/newSuccess.php"
+Apr 28 21:46:01 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/_form.php"
+Apr 28 21:46:01 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:46:01 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:46:01 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:46:01 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:46:01 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:46:01 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:46:01 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:46:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:46:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:46:01 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (9)
+Apr 28 21:46:01 symfony [info] {sfWebDebugLogger} Action "client/new" 11.83 ms (1)
+Apr 28 21:46:01 symfony [info] {sfWebDebugLogger} View "Success" for "client/new" 21.27 ms (1)
+Apr 28 21:46:01 symfony [info] {sfWebDebugLogger} Partial "client/_form" 16.80 ms (1)
+Apr 28 21:46:01 symfony [info] {sfWebResponse} Send content (29113 o)
+Apr 28 21:47:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:47:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:47:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:47:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/create with parameters array (  'module' => 'client',  'action' => 'create',)
+Apr 28 21:47:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:47:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:47:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:47:15 symfony [info] {clientActions} Call "clientActions->executeCreate()"
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city` WHERE city.ID=:p1 LIMIT 1
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state` WHERE state.ID=:p1 LIMIT 1
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode` WHERE zipcode.ID=:p1 LIMIT 1
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service` WHERE service.ID=:p1 LIMIT 1
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client` WHERE client.EMAIL=:p1 LIMIT 1
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 'ryansdeal@hotmail.com' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: INSERT INTO client (`ID`,`LAST_NAME`,`FIRST_NAME`,`PARENT_GUARDIAN_NAME`,`ADDRESS_LINE`,`CITY_ID`,`STATE_ID`,`ZIPCODE_ID`,`TELEPHONE1`,`TELEPHONE2`,`SCHOOL`,`EMAIL`,`CITY_AREA`,`SERVICE_ID`) VALUES (:p1,:p2,:p3,:p4,:p5,:p6,:p7,:p8,:p9,:p10,:p11,:p12,:p13,:p14)
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 'Sloan' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 'Ryan' at position :p3 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '' at position :p4 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '10414 Cueva Del Oso NE' at position :p5 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 1 at position :p6 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 1 at position :p7 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 1 at position :p8 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '5055055055' at position :p9 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '5055550505' at position :p10 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '' at position :p11 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 'ryansdeal@hotmail.com' at position :p12 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 'NE Heights' at position :p13 w/ PDO type PDO::PARAM_STR
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding 1 at position :p14 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/client/edit/id/1"
+Apr 28 21:47:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 21:47:15 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/client/edit/id/1"
+Apr 28 21:47:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:47:15 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (8)
+Apr 28 21:47:15 symfony [info] {sfWebDebugLogger} Action "client/create" 32.04 ms (1)
+Apr 28 21:47:15 symfony [info] {sfWebResponse} Send content (161 o)
+Apr 28 21:47:15 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:47:15 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:47:15 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:47:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client/edit/id/1 with parameters array (  'id' => '1',  'module' => 'client',  'action' => 'edit',)
+Apr 28 21:47:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:47:15 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:47:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:47:15 symfony [info] {clientActions} Call "clientActions->executeEdit()"
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client` WHERE client.ID=:p1
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:47:15 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/editSuccess.php"
+Apr 28 21:47:15 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/_form.php"
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:47:15 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:47:15 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:47:15 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:47:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:47:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:47:15 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (9)
+Apr 28 21:47:15 symfony [info] {sfWebDebugLogger} Action "client/edit" 15.88 ms (1)
+Apr 28 21:47:15 symfony [info] {sfWebDebugLogger} View "Success" for "client/edit" 18.69 ms (1)
+Apr 28 21:47:15 symfony [info] {sfWebDebugLogger} Partial "client/_form" 14.37 ms (1)
+Apr 28 21:47:15 symfony [info] {sfWebResponse} Send content (30456 o)
+Apr 28 21:47:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:47:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:47:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:47:19 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /client with parameters array (  'module' => 'client',  'action' => 'index',)
+Apr 28 21:47:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:47:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:47:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:47:19 symfony [info] {clientActions} Call "clientActions->executeIndex()"
+Apr 28 21:47:19 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:47:19 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client`
+Apr 28 21:47:19 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client/templates/indexSuccess.php"
+Apr 28 21:47:19 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:47:19 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:47:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:47:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:47:19 symfony [info] {sfWebDebugLogger} Configuration 0.46 ms (9)
+Apr 28 21:47:19 symfony [info] {sfWebDebugLogger} Action "client/index" 9.54 ms (1)
+Apr 28 21:47:19 symfony [info] {sfWebDebugLogger} View "Success" for "client/index" 4.49 ms (1)
+Apr 28 21:47:19 symfony [info] {sfWebResponse} Send content (26409 o)
+Apr 28 21:47:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:47:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:47:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:47:53 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /volunteer with parameters array (  'module' => 'volunteer',  'action' => 'index',)
+Apr 28 21:47:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:47:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:47:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:47:53 symfony [info] {volunteerActions} Call "volunteerActions->executeIndex()"
+Apr 28 21:47:53 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:47:53 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer`
+Apr 28 21:47:53 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/volunteer/templates/indexSuccess.php"
+Apr 28 21:47:53 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:47:53 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:47:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:47:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:47:53 symfony [info] {sfWebDebugLogger} Configuration 7.84 ms (10)
+Apr 28 21:47:53 symfony [info] {sfWebDebugLogger} Action "volunteer/index" 7.28 ms (1)
+Apr 28 21:47:53 symfony [info] {sfWebDebugLogger} View "Success" for "volunteer/index" 5.14 ms (1)
+Apr 28 21:47:53 symfony [info] {sfWebResponse} Send content (25952 o)
+Apr 28 21:47:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:47:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:47:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:47:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /volunteer/new with parameters array (  'module' => 'volunteer',  'action' => 'new',)
+Apr 28 21:47:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:47:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:47:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:47:55 symfony [info] {volunteerActions} Call "volunteerActions->executeNew()"
+Apr 28 21:47:55 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/volunteer/templates/newSuccess.php"
+Apr 28 21:47:55 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/volunteer/templates/_form.php"
+Apr 28 21:47:55 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:47:55 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:47:55 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:47:55 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:47:55 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:47:55 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:47:55 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:47:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:47:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:47:55 symfony [info] {sfWebDebugLogger} Configuration 0.43 ms (9)
+Apr 28 21:47:55 symfony [info] {sfWebDebugLogger} Action "volunteer/new" 10.96 ms (1)
+Apr 28 21:47:55 symfony [info] {sfWebDebugLogger} View "Success" for "volunteer/new" 21.09 ms (1)
+Apr 28 21:47:55 symfony [info] {sfWebDebugLogger} Partial "volunteer/_form" 16.87 ms (1)
+Apr 28 21:47:55 symfony [info] {sfWebResponse} Send content (29161 o)
+Apr 28 21:48:55 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:48:55 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:48:55 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:48:55 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /volunteer/new with parameters array (  'module' => 'volunteer',  'action' => 'new',)
+Apr 28 21:48:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:48:55 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:48:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:48:55 symfony [info] {volunteerActions} Call "volunteerActions->executeNew()"
+Apr 28 21:48:55 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/volunteer/templates/newSuccess.php"
+Apr 28 21:48:55 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/volunteer/templates/_form.php"
+Apr 28 21:48:55 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:48:55 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:48:55 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:48:55 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:48:55 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:48:55 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:48:55 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:48:55 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:48:55 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:48:55 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (9)
+Apr 28 21:48:55 symfony [info] {sfWebDebugLogger} Action "volunteer/new" 11.25 ms (1)
+Apr 28 21:48:55 symfony [info] {sfWebDebugLogger} View "Success" for "volunteer/new" 20.88 ms (1)
+Apr 28 21:48:55 symfony [info] {sfWebDebugLogger} Partial "volunteer/_form" 16.30 ms (1)
+Apr 28 21:48:55 symfony [info] {sfWebResponse} Send content (29193 o)
+Apr 28 21:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:50:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /volunteer/create with parameters array (  'module' => 'volunteer',  'action' => 'create',)
+Apr 28 21:50:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:50:20 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:50:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:50:20 symfony [info] {volunteerActions} Call "volunteerActions->executeCreate()"
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city` WHERE city.ID=:p1 LIMIT 1
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state` WHERE state.ID=:p1 LIMIT 1
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode` WHERE zipcode.ID=:p1 LIMIT 1
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service` WHERE service.ID=:p1 LIMIT 1
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer` WHERE volunteer.EMAIL=:p1 LIMIT 1
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 'example@example.com' at position :p1 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} prepare: INSERT INTO volunteer (`ID`,`LAST_NAME`,`FIRST_NAME`,`ADDRESS_LINE`,`CITY_ID`,`STATE_ID`,`ZIPCODE_ID`,`TELEPHONE_HOME`,`TELEPHONE_CELL`,`TELEPHONE_WORK`,`EMAIL`,`CHURCH`,`CITY_AREA`,`SERVICE_ID`) VALUES (:p1,:p2,:p3,:p4,:p5,:p6,:p7,:p8,:p9,:p10,:p11,:p12,:p13,:p14)
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 'Sloan' at position :p2 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 'Patricia' at position :p3 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding '10414 Cueva Del Oso NE' at position :p4 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 1 at position :p5 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 1 at position :p6 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 1 at position :p7 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding '5055075055' at position :p8 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding '5057534567' at position :p9 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding '5058956237' at position :p10 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 'example@example.com' at position :p11 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 'First Christian' at position :p12 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 'NE Heights' at position :p13 w/ PDO type PDO::PARAM_STR
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} Binding 1 at position :p14 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:20 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/volunteer/edit/id/1"
+Apr 28 21:50:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 21:50:20 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/volunteer/edit/id/1"
+Apr 28 21:50:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:50:20 symfony [info] {sfWebDebugLogger} Configuration 0.41 ms (8)
+Apr 28 21:50:20 symfony [info] {sfWebDebugLogger} Action "volunteer/create" 30.49 ms (1)
+Apr 28 21:50:20 symfony [info] {sfWebResponse} Send content (164 o)
+Apr 28 21:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:50:20 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:50:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /volunteer/edit/id/1 with parameters array (  'id' => '1',  'module' => 'volunteer',  'action' => 'edit',)
+Apr 28 21:50:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:50:20 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:50:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:50:20 symfony [info] {volunteerActions} Call "volunteerActions->executeEdit()"
+Apr 28 21:50:20 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer` WHERE volunteer.ID=:p1
+Apr 28 21:50:21 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:50:21 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/volunteer/templates/editSuccess.php"
+Apr 28 21:50:21 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/volunteer/templates/_form.php"
+Apr 28 21:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT city.ID, city.CITY_NAME FROM `city`
+Apr 28 21:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT state.ID, state.STATE_NAME, state.STATE_ABBREVIATION FROM `state`
+Apr 28 21:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT zipcode.ID, zipcode.ZIP_CODE FROM `zipcode`
+Apr 28 21:50:21 symfony [debug] {sfPropelLogger} prepare: SELECT service.ID, service.SERVICE_NAME FROM `service`
+Apr 28 21:50:21 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:50:21 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:50:21 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:50:21 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:50:21 symfony [info] {sfWebDebugLogger} Configuration 0.45 ms (9)
+Apr 28 21:50:21 symfony [info] {sfWebDebugLogger} Action "volunteer/edit" 15.94 ms (1)
+Apr 28 21:50:21 symfony [info] {sfWebDebugLogger} View "Success" for "volunteer/edit" 18.31 ms (1)
+Apr 28 21:50:21 symfony [info] {sfWebDebugLogger} Partial "volunteer/_form" 13.89 ms (1)
+Apr 28 21:50:21 symfony [info] {sfWebResponse} Send content (30564 o)
+Apr 28 21:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:50:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:50:23 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /volunteer with parameters array (  'module' => 'volunteer',  'action' => 'index',)
+Apr 28 21:50:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:50:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:50:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:50:23 symfony [info] {volunteerActions} Call "volunteerActions->executeIndex()"
+Apr 28 21:50:23 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:50:23 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer`
+Apr 28 21:50:23 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/volunteer/templates/indexSuccess.php"
+Apr 28 21:50:23 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:50:23 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:50:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:50:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:50:23 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (9)
+Apr 28 21:50:23 symfony [info] {sfWebDebugLogger} Action "volunteer/index" 9.59 ms (1)
+Apr 28 21:50:23 symfony [info] {sfWebDebugLogger} View "Success" for "volunteer/index" 4.35 ms (1)
+Apr 28 21:50:23 symfony [info] {sfWebResponse} Send content (26485 o)
+Apr 28 21:50:33 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:50:33 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:50:33 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:50:33 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /client_volunteer_map with parameters array (  'module' => 'client_volunteer_map',  'action' => 'index',)
+Apr 28 21:50:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:50:33 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:50:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:50:33 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeIndex()"
+Apr 28 21:50:33 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:50:33 symfony [debug] {sfPropelLogger} prepare: SELECT client_volunteer_map.ID, client_volunteer_map.CLIENT_ID, client_volunteer_map.VOLUNTEER_ID FROM `client_volunteer_map`
+Apr 28 21:50:33 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/indexSuccess.php"
+Apr 28 21:50:33 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:50:33 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:50:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:50:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:50:33 symfony [info] {sfWebDebugLogger} Configuration 7.81 ms (10)
+Apr 28 21:50:33 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/index" 6.04 ms (1)
+Apr 28 21:50:33 symfony [info] {sfWebDebugLogger} View "Success" for "client_volunteer_map/index" 5.12 ms (1)
+Apr 28 21:50:33 symfony [info] {sfWebResponse} Send content (25689 o)
+Apr 28 21:50:35 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:50:35 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:50:35 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:50:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client_volunteer_map/new with parameters array (  'module' => 'client_volunteer_map',  'action' => 'new',)
+Apr 28 21:50:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:50:35 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:50:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:50:35 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeNew()"
+Apr 28 21:50:35 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/newSuccess.php"
+Apr 28 21:50:35 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/_form.php"
+Apr 28 21:50:35 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:50:35 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client`
+Apr 28 21:50:35 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:50:35 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:50:35 symfony [err] {RuntimeException} Class "Client" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Apr 28 21:50:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 28 21:50:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:51:53 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:51:53 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:51:53 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:51:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client_volunteer_map/new with parameters array (  'module' => 'client_volunteer_map',  'action' => 'new',)
+Apr 28 21:51:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:51:53 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:51:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:51:53 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeNew()"
+Apr 28 21:51:53 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/newSuccess.php"
+Apr 28 21:51:53 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/_form.php"
+Apr 28 21:51:53 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:51:53 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client`
+Apr 28 21:51:53 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer`
+Apr 28 21:51:53 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:51:53 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:51:53 symfony [err] {RuntimeException} Class "Volunteer" must implement a "__toString" method to be rendered in a "sfWidgetFormPropelChoice" widget
+Apr 28 21:51:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Apr 28 21:51:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:52:54 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:52:54 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:52:54 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:52:54 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client_volunteer_map/new with parameters array (  'module' => 'client_volunteer_map',  'action' => 'new',)
+Apr 28 21:52:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:52:54 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:52:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:52:54 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeNew()"
+Apr 28 21:52:54 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/newSuccess.php"
+Apr 28 21:52:54 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/_form.php"
+Apr 28 21:52:54 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:52:54 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client`
+Apr 28 21:52:54 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer`
+Apr 28 21:52:54 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:52:54 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:52:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:52:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:52:54 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (9)
+Apr 28 21:52:54 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/new" 8.74 ms (1)
+Apr 28 21:52:54 symfony [info] {sfWebDebugLogger} View "Success" for "client_volunteer_map/new" 19.77 ms (1)
+Apr 28 21:52:54 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_form" 15.08 ms (1)
+Apr 28 21:52:54 symfony [info] {sfWebResponse} Send content (27948 o)
+Apr 28 21:53:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:53:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:53:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:53:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client_volunteer_map/create with parameters array (  'module' => 'client_volunteer_map',  'action' => 'create',)
+Apr 28 21:53:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:53:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:53:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:53:01 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeCreate()"
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client` WHERE client.ID=:p1 LIMIT 1
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer` WHERE volunteer.ID=:p1 LIMIT 1
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} prepare: INSERT INTO client_volunteer_map (`ID`,`CLIENT_ID`,`VOLUNTEER_ID`) VALUES (:p1,:p2,:p3)
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} Binding NULL at position :p1 w/ PDO type PDO::PARAM_NULL
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} Binding 1 at position :p2 w/ PDO type PDO::PARAM_INT
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} Binding 1 at position :p3 w/ PDO type PDO::PARAM_INT
+Apr 28 21:53:01 symfony [info] {sfFrontWebController} Redirect to "http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/client_volunteer_map/edit/id/1"
+Apr 28 21:53:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Apr 28 21:53:01 symfony [info] {sfWebResponse} Send header "Location: http://ec2-52-39-158-226.us-west-2.compute.amazonaws.com/frontend_dev.php/client_volunteer_map/edit/id/1"
+Apr 28 21:53:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:53:01 symfony [info] {sfWebDebugLogger} Configuration 0.40 ms (8)
+Apr 28 21:53:01 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/create" 26.28 ms (1)
+Apr 28 21:53:01 symfony [info] {sfWebResponse} Send content (175 o)
+Apr 28 21:53:01 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:53:01 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:53:01 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:53:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /client_volunteer_map/edit/id/1 with parameters array (  'id' => '1',  'module' => 'client_volunteer_map',  'action' => 'edit',)
+Apr 28 21:53:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:53:01 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:53:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:53:01 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeEdit()"
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} prepare: SELECT client_volunteer_map.ID, client_volunteer_map.CLIENT_ID, client_volunteer_map.VOLUNTEER_ID FROM `client_volunteer_map` WHERE client_volunteer_map.ID=:p1
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+Apr 28 21:53:01 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/editSuccess.php"
+Apr 28 21:53:01 symfony [info] {sfPartialView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/_form.php"
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} prepare: SELECT client.ID, client.LAST_NAME, client.FIRST_NAME, client.PARENT_GUARDIAN_NAME, client.ADDRESS_LINE, client.CITY_ID, client.STATE_ID, client.ZIPCODE_ID, client.TELEPHONE1, client.TELEPHONE2, client.SCHOOL, client.EMAIL, client.FAMILY_SIZE, client.CITY_AREA, client.SERVICE_ID FROM `client`
+Apr 28 21:53:01 symfony [debug] {sfPropelLogger} prepare: SELECT volunteer.ID, volunteer.LAST_NAME, volunteer.FIRST_NAME, volunteer.ADDRESS_LINE, volunteer.CITY_ID, volunteer.STATE_ID, volunteer.ZIPCODE_ID, volunteer.TELEPHONE_HOME, volunteer.TELEPHONE_CELL, volunteer.TELEPHONE_WORK, volunteer.EMAIL, volunteer.CHURCH, volunteer.CITY_AREA, volunteer.SERVICE_ID FROM `volunteer`
+Apr 28 21:53:01 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:53:01 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:53:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:53:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:53:01 symfony [info] {sfWebDebugLogger} Configuration 0.48 ms (9)
+Apr 28 21:53:01 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/edit" 11.86 ms (1)
+Apr 28 21:53:01 symfony [info] {sfWebDebugLogger} View "Success" for "client_volunteer_map/edit" 17.18 ms (1)
+Apr 28 21:53:01 symfony [info] {sfWebDebugLogger} Partial "client_volunteer_map/_form" 12.80 ms (1)
+Apr 28 21:53:01 symfony [info] {sfWebResponse} Send content (28957 o)
+Apr 28 21:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 21:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 21:53:08 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 21:53:08 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /client_volunteer_map with parameters array (  'module' => 'client_volunteer_map',  'action' => 'index',)
+Apr 28 21:53:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 21:53:08 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 21:53:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 21:53:08 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeIndex()"
+Apr 28 21:53:08 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 21:53:08 symfony [debug] {sfPropelLogger} prepare: SELECT client_volunteer_map.ID, client_volunteer_map.CLIENT_ID, client_volunteer_map.VOLUNTEER_ID FROM `client_volunteer_map`
+Apr 28 21:53:08 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/indexSuccess.php"
+Apr 28 21:53:08 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:53:08 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 21:53:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 21:53:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 21:53:08 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (9)
+Apr 28 21:53:08 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/index" 7.03 ms (1)
+Apr 28 21:53:08 symfony [info] {sfWebDebugLogger} View "Success" for "client_volunteer_map/index" 4.24 ms (1)
+Apr 28 21:53:08 symfony [info] {sfWebResponse} Send content (25957 o)
+Apr 28 22:27:58 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:27:58 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:27:58 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:27:58 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /client_volunteer_map with parameters array (  'module' => 'client_volunteer_map',  'action' => 'index',)
+Apr 28 22:27:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 22:27:58 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 22:27:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 22:27:58 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeIndex()"
+Apr 28 22:27:58 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 22:27:58 symfony [debug] {sfPropelLogger} prepare: SELECT client_volunteer_map.ID, client_volunteer_map.CLIENT_ID, client_volunteer_map.VOLUNTEER_ID FROM `client_volunteer_map`
+Apr 28 22:27:58 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/indexSuccess.php"
+Apr 28 22:27:58 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 22:27:58 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 22:27:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 22:27:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:27:58 symfony [info] {sfWebDebugLogger} Configuration 0.49 ms (9)
+Apr 28 22:27:58 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/index" 7.08 ms (1)
+Apr 28 22:27:58 symfony [info] {sfWebDebugLogger} View "Success" for "client_volunteer_map/index" 4.11 ms (1)
+Apr 28 22:27:58 symfony [info] {sfWebResponse} Send content (26192 o)
+Apr 28 22:40:36 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Apr 28 22:40:36 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Apr 28 22:40:36 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Apr 28 22:40:36 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /client_volunteer_map with parameters array (  'module' => 'client_volunteer_map',  'action' => 'index',)
+Apr 28 22:40:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 28 22:40:36 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+Apr 28 22:40:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 28 22:40:36 symfony [info] {client_volunteer_mapActions} Call "client_volunteer_mapActions->executeIndex()"
+Apr 28 22:40:36 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+Apr 28 22:40:36 symfony [debug] {sfPropelLogger} prepare: SELECT client_volunteer_map.ID, client_volunteer_map.CLIENT_ID, client_volunteer_map.VOLUNTEER_ID FROM `client_volunteer_map`
+Apr 28 22:40:36 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/modules/client_volunteer_map/templates/indexSuccess.php"
+Apr 28 22:40:36 symfony [info] {sfPHPView} Decorate content with "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 22:40:36 symfony [info] {sfPHPView} Render "/home/aaok-1.2.12/apps/frontend/templates/layout.php"
+Apr 28 22:40:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 28 22:40:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 28 22:40:36 symfony [info] {sfWebDebugLogger} Configuration 0.68 ms (9)
+Apr 28 22:40:36 symfony [info] {sfWebDebugLogger} Action "client_volunteer_map/index" 18.04 ms (1)
+Apr 28 22:40:36 symfony [info] {sfWebDebugLogger} View "Success" for "client_volunteer_map/index" 12.64 ms (1)
+Apr 28 22:40:36 symfony [info] {sfWebResponse} Send content (26227 o)
